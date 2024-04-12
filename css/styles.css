@@ -1,0 +1,178 @@
+/* Custom CSS styles */
+body {
+    padding-top: 50px; /* Ajuste para que el contenido no se solape con el header fijo */
+}
+
+.navbar {
+    border-bottom: 1px solid #ddd; /* Agrega una línea divisoria debajo del header */
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 10px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 5px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: #ccc;
+}
+
+.carousel-item p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.carousel-item h3 {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.carousel-item img {
+    width: 900px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.Bienvenida {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.Bienvenida h1 {
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+.card {
+    margin-top: 50px;
+}
+
+.row {
+    margin: 100px;
+}
+
+.row img {
+    width: 536px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit; /* El color heredará el color del texto de su contenedor */
+}
+
+.card-link:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Estilos para el carrito */
+
+/* Estilos para el contenedor del carrito */
+.Carrito {
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para el título del carrito */
+  .Carrito h1 {
+    color: #333;
+  }
+  
+  /* Estilos para el botón */
+  .Carrito button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Cambio de color al pasar el mouse sobre el botón */
+  .Carrito button:hover {
+    background-color: #45a049;
+  }
+  
+
+/* Estilo general del producto */
+.producto {
+    border: 1px solid #eee;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo del contenedor de la imagen del producto */
+.producto-imagen-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo de la imagen del producto */
+.producto-imagen {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Estilo del título del producto */
+.producto-titulo {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Estilo de la descripción del producto */
+.producto-descripcion {
+    margin-left: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Estilo del botón de comprar */
+.producto-boton-comprar {
+    width: 100%;
+    border-radius: 0;
+    background-color: #f05336;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+/* Estilo del botón de comprar al pasar el ratón */
+.producto-boton-comprar:hover {
+    background-color: #e44b30;
+}
